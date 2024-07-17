@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <title>E-Canteen UTDI - Our Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">E-Canteen UTDI</h1>
+        <nav style="text-align: center;">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Our Menu</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <section style="text-align: center;">
+        <h2 style="text-align: center;">Our Menu</h2>
+        <div class="menu-item">
+            <img src="https://via.placeholder.com/200x150" alt="Mie Ayam">
+            <h3>Mie Ayam</h3>
+            <p style="text-align: center;">Harga: 8k</p>
+            <button onclick="orderNow('Mie Ayam')">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img src="https://via.placeholder.com/200x150" alt="Bakso">
+            <h3>Bakso</h3>
+            <p>Harga: 10k</p>
+            <button onclick="orderNow('Bakso')">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img src="https://via.placeholder.com/200x150" alt="Batagor">
+            <h3>Batagor</h3>
+            <p>Harga: 7k</p>
+            <button onclick="orderNow('Batagor')">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img src="https://via.placeholder.com/200x150" alt="Ayam Geprek">
+            <h3>Ayam Geprek</h3>
+            <p>Harga: 12k</p>
+            <button onclick="orderNow('Ayam Geprek')">Order Now</button>
+        </div>
+    </section>
+
+    <footer style="text-align: center;">
+        <p>&copy; 2024 E-Canteen UTDI</p>
+    </footer>
+
+    <script>
+        function orderNow(menuItem) {
+            alert('You have ordered: ' + menuItem);
+        }
+    </script>
+</body>
+</html>
